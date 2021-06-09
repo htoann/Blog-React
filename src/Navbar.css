@@ -1,0 +1,51 @@
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 20px;
+  position: relative;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  font-size: 18px;
+  transition: 0.1s;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: white;
+  background-color: rgb(118, 118, 255);
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.auth {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  margin-left: 40%;
+}
+
+.auth li {
+  list-style: none;
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.profile:hover .auth {
+  display: block;
+  opacity: 1;
+}
