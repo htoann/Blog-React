@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./assets/Navbar.css";
 
 const Navbar = () => {
   return (
@@ -7,6 +7,7 @@ const Navbar = () => {
       <div className="links">
         <a href="/">Home</a>
         <a href="/create">New Blog</a>
+        <a href="/todo">Todo List</a>
         <a href="/messages">Messages</a>
         <a class="profile" href="/profile">
           User

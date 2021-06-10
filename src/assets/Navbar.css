@@ -2,7 +2,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
   font-size: 20px;
@@ -33,7 +33,7 @@
   opacity: 0;
   display: none;
   position: absolute;
-  margin-left: 30%;
+  margin-left: calc(100% - 66%);
 }
 
 .auth li {
