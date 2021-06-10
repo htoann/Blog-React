@@ -17,13 +17,11 @@
   text-decoration: none;
   padding: 6px;
   font-size: 18px;
-  transition: 0.1s;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   font-weight: bold;
 }
 .navbar a:hover {
-  color: white;
-  background-color: rgb(118, 118, 255);
+  color: blue;
 }
 .content {
   max-width: 600px;
@@ -35,7 +33,7 @@
   opacity: 0;
   display: none;
   position: absolute;
-  margin-left: 40%;
+  margin-left: 30%;
 }
 
 .auth li {

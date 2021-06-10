@@ -6,8 +6,8 @@ const Navbar = () => {
       <h1>HToan Blog</h1>
       <div className="links">
         <a href="/">Home</a>
-        <a href="/create">Create A New Blog</a>
-        <a href="/profile">Messages</a>
+        <a href="/create">New Blog</a>
+        <a href="/messages">Messages</a>
         <a class="profile" href="/profile">
           User
           <div className="auth">
