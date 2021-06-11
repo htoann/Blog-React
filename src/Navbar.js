@@ -7,10 +7,10 @@ const Navbar = () => {
       <h1>HToan Blog</h1>
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/blog/create">New Blog</Link>
+        <Link to="/blogs/create">New Blog</Link>
         <Link to="/todo/all">Todo List</Link>
         <Link to="/messages">Messages</Link>
-        <Link className="profile" to="/profile">
+        {/* <Link className="profile" to="/profile">
           User
         </Link>
         <div className="auth">
@@ -23,7 +23,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/auth/login">Login</Link>
+        <Link to="/auth/login">Login</Link> */}
         <Link to="/about">About</Link>
       </div>
     </nav>
