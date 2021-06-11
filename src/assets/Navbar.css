@@ -17,7 +17,6 @@
   text-decoration: none;
   padding: 6px;
   font-size: 18px;
-  /* border-radius: 10px; */
   font-weight: bold;
 }
 .navbar a:hover {
@@ -30,7 +29,6 @@
 }
 
 .auth {
-  opacity: 0;
   display: none;
   position: absolute;
   margin-left: calc(100% - 66%);
@@ -44,6 +42,5 @@
 }
 
 .profile:hover .auth {
-  display: block;
-  opacity: 1;
+  display: none;
 }

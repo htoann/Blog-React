@@ -1,28 +1,30 @@
 import "./assets/Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <h1>HToan Blog</h1>
       <div className="links">
-        <a href="/">Home</a>
-        <a href="/create">New Blog</a>
-        <a href="/todo">Todo List</a>
-        <a href="/messages">Messages</a>
-        <a class="profile" href="/profile">
+        <Link to="/">Home</Link>
+        <Link to="/blog/create">New Blog</Link>
+        <Link to="/todo/all">Todo List</Link>
+        <Link to="/messages">Messages</Link>
+        <Link className="profile" to="/profile">
           User
-          <div className="auth">
-            <ul>
-              <li>
-                <a href="/auth/logout">Log out</a>
-              </li>
-              <li>
-                <a href="/auth/signup">Sign up</a>
-              </li>
-            </ul>
-          </div>
-        </a>
-        <a href="/auth/login">Login</a>
+        </Link>
+        <div className="auth">
+          <ul>
+            <li>
+              <Link to="/auth/logout">Log out</Link>
+            </li>
+            <li>
+              <Link to="/auth/signup">Sign up</Link>
+            </li>
+          </ul>
+        </div>
+        <Link to="/auth/login">Login</Link>
+        <Link to="/about">About</Link>
       </div>
     </nav>
   );
