@@ -13,10 +13,16 @@
       "id": 2
     },
     {
-      "title": "qwewq",
-      "body": "qeqweqwe",
-      "author": "qwewq",
+      "title": "Full Modern React Tutorial",
+      "body": "React is the most popular JavaScript framework for building web applications & with good reason. With React, we can make fast, dynamic & interactive websites (single page applications) very easily.\n\nIn this course you'll learn React from the ground up, using modern features such as hooks and functional components.",
+      "author": "The Net Ninja",
       "id": 3
+    },
+    {
+      "title": "Build Websites with Vue 3 & Firebase",
+      "body": "Learn Vue.js 3 (the latest major version) and Firebase from the ground-up to create amazing, interactive, content-driven & dynamic websites.\n\nIn this course you'll learn Vue.js from the very beginning & create multiple projects - a live chatroom, a project planner, a reaction timer and a social music playlist site. You'll also learn the latest Vue 3 features such as the Composition API.",
+      "author": "The Net Ninja",
+      "id": 4
     }
   ]
 }

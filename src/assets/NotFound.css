@@ -1,0 +1,14 @@
+.notfound h2 {
+  margin-bottom: 30px;
+}
+
+.notfound a {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+}
