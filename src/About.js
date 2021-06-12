@@ -3,6 +3,7 @@ import "./assets/About.css";
 const About = () => {
   return (
     <div className="about">
+      <h2 style={{ marginBottom: 15 + "px" }}>About</h2>
       <h3>Full Name : Trần Hữu Toàn</h3>
       <h3>Age : 19</h3>
       <h3>Contact me on</h3>

@@ -1,5 +1,7 @@
 ## ReactJS
 
-Step 1 : npx json-server --watch data/db.json --port 8000
+Step 1 : npm install
 
-Step 2 : npm start
+Step 2 : npx json-server --watch data/db.json --port 8000
+
+Step 3 : npm start

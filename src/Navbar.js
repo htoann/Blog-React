@@ -8,9 +8,18 @@ const Navbar = () => {
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/blogs/create">New Blog</Link>
-        <Link to="/todo/all">Todo List</Link>
+        <Link to="/todolist">Todo List</Link>
         <Link to="/messages">Messages</Link>
-        {/* <Link className="profile" to="/profile">
+        <Link to="/about">About</Link>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
+
+{
+  /* <Link className="profile" to="/profile">
           User
         </Link>
         <div className="auth">
@@ -23,11 +32,5 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/auth/login">Login</Link> */}
-        <Link to="/about">About</Link>
-      </div>
-    </nav>
-  );
-};
-
-export default Navbar;
+        <Link to="/auth/login">Login</Link> */
+}

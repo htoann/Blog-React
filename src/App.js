@@ -5,6 +5,7 @@ import Create from "./Create";
 import BlogDetails from "./BlogDetails";
 import NotFound from "./NotFound";
 import About from "./About";
+import Todo from "./Todo";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
 
             <Route exact path="/about">
               <About></About>
+            </Route>
+
+            <Route exact path="/todolist">
+              <Todo></Todo>
             </Route>
 
             <Route path="*">

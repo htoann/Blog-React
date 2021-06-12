@@ -11,12 +11,10 @@ const Home = () => {
   return (
     <div className="home">
       {error && <div> {error} </div>}
-      {isPending && <div>Loading...</div>}
+      {isPending && <h2>Loading...</h2>}
       {blogs && <BlogList blogs={blogs} title="All Blogs"></BlogList>}
     </div>
   );
 };
 
 export default Home;
-
-// npx json-server --watch data/db.json --port 8000

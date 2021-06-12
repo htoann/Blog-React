@@ -1,0 +1,56 @@
+.todo-list {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
+}
+
+.todo-list h2 {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.todo-list p {
+  padding: 0 0 25px;
+  font-size: 20px;
+  display: flex;
+  width: 100%;
+  text-align: start;
+  margin-left: -60px;
+}
+
+.todo-list input {
+  padding: 10px;
+  border: hidden;
+  font-size: 20px;
+  border-style: none;
+  width: 60%;
+}
+.todo-list button {
+  margin-top: 10px;
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.todo-preview {
+  display: flex;
+  margin-right: 20px;
+}
+
+.todo-preview button {
+  display: flex;
+  margin-right: 20px;
+}
+
+.checkbox {
+  margin-top: 6px;
+  margin-left: -50px;
+}
