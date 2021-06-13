@@ -55,7 +55,7 @@ const TodoList = ({ todolist, text }) => {
       {todolist.map((todo) => (
         <div className="todo-preview" key={todo.id}>
           <input className="checkbox" type="checkbox" />
-          <p>{todo.text}</p>
+          <p className="text-todo">{todo.text}</p>
           {/* <button onClick={handleDelete}>Delete</button> */}
         </div>
       ))}
