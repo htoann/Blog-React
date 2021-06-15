@@ -1,5 +1,5 @@
-import "./assets/Navbar.css";
 import { Link } from "react-router-dom";
+import "./assets/Navbar.css";
 
 const Navbar = () => {
   return (
@@ -11,6 +11,7 @@ const Navbar = () => {
         <Link to="/todolist">Todo List</Link>
         <Link to="/messages">Messages</Link>
         <Link to="/about">About</Link>
+        <Link to="/animation">Animation</Link>
       </div>
     </nav>
   );

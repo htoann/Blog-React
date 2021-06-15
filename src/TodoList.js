@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import useFetch from "./useFetch";
 import { useHistory } from "react-router-dom";
 
 const TodoList = ({ todolist, text }) => {
