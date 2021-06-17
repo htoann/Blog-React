@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Canvas } from "react-three-fiber";
+import { Canvas } from "@react-three/fiber";
 import shallow from "zustand/shallow";
 
 import { Box, useStore } from "./Box";

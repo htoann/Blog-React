@@ -18,20 +18,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <Link className="profile" to="/profile">
-          User
-        </Link>
-        <div className="auth">
-          <ul>
-            <li>
-              <Link to="/auth/logout">Log out</Link>
-            </li>
-            <li>
-              <Link to="/auth/signup">Sign up</Link>
-            </li>
-          </ul>
-        </div>
-        <Link to="/auth/login">Login</Link> */
-}

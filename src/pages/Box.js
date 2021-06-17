@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { useFrame } from "react-three-fiber";
+import { useFrame } from "@react-three/fiber";
 import create from "zustand";
 
 const BOX_COUNT = 120;

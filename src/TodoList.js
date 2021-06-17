@@ -1,11 +1,6 @@
 import { useState } from "react";
-import { useParams } from "react-router-dom";
-import { useHistory } from "react-router-dom";
 
 const TodoList = ({ todolist, text }) => {
-  const { id } = useParams();
-  const history = useHistory();
-
   const Add = () => {
     const [text, setText] = useState("");
     const [isPending, setIsPending] = useState(false);

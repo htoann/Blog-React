@@ -1,5 +1,5 @@
 import React, { useRef, useMemo } from "react";
-import { useFrame } from "react-three-fiber";
+import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
 const STAR_COUNT = 2000;
