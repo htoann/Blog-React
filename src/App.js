@@ -5,7 +5,7 @@ import Create from "./BlogCreate";
 import BlogDetails from "./BlogDetails";
 import About from "./About";
 import Todo from "./Todo";
-import Animation3D from "./pages/Animation3D";
+import Animation3D from "./components/pages/Animation3D";
 import NotFound from "./NotFound";
 
 function App() {
