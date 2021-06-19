@@ -8,7 +8,7 @@ const TodoList = ({ todolist, text }) => {
     const handleSubmit = () => {
       const todo = { text };
       setIsPending(true);
-      fetch("http://localhost:8000/todolist", {
+      fetch("https://60c9e7eb772a760017204b93.mockapi.io/todolist", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(todo),

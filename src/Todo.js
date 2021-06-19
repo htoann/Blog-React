@@ -7,7 +7,7 @@ const Todo = () => {
     data: todolist,
     isPending,
     error,
-  } = useFetch("http://localhost:8000/todolist");
+  } = useFetch("https://60c9e7eb772a760017204b93.mockapi.io/todolist");
   return (
     <div className="todo-list">
       {error && <div>{error}</div>}

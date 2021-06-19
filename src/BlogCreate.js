@@ -13,7 +13,7 @@ const Create = () => {
     e.preventDefault();
     const blog = { title, body, author };
     setIsPending(true);
-    fetch("http://localhost:8000/blogs", {
+    fetch("https://60c9e7eb772a760017204b93.mockapi.io/blogs", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),
