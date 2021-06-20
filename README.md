@@ -1,4 +1,4 @@
-## ReactJS
+## React
 
 Step 1 : npm install
 
