@@ -1,56 +1,14 @@
-import { useState } from "react";
+import TodoForm from "./TodoForm";
 
 const TodoList = ({ todolist, text }) => {
-  const Add = () => {
-    const [text, setText] = useState("");
-    const [isPending, setIsPending] = useState(false);
-
-    const handleSubmit = () => {
-      const todo = { text };
-      setIsPending(true);
-      fetch("https://60c9e7eb772a760017204b93.mockapi.io/todolist", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(todo),
-      }).then(() => {
-        setIsPending(false);
-      });
-    };
-
-    return (
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="What need to be done?"
-          onChange={(e) => {
-            setText(e.target.value);
-          }}
-        />
-        {!isPending && <button>Add Task</button>}
-        {isPending && <button disabled>Adding...</button>}
-      </form>
-    );
-  };
-
-  // const { data: todo, isPending } = useFetch(
-  //   "http://localhost:8000/todolist/" + id
-  // );
-
-  // const handleDelete = () => {
-  //   fetch("http://localhost:8000/todolist/" + id, {
-  //     method: "DELETE",
-  //   });
-  // };
-
   return (
     <div className="todo-list">
       <h2>{text}</h2>
-      <Add></Add>
+      <TodoForm></TodoForm>
       {todolist.map((todo) => (
         <div className="todo-preview" key={todo.id}>
           <input className="checkbox" type="checkbox" />
           <p className="text-todo">{todo.text}</p>
-          {/* <button onClick={handleDelete}>Delete</button> */}
         </div>
       ))}
     </div>
