@@ -15,7 +15,7 @@ const TodoForm = () => {
       body: JSON.stringify(todo),
     }).then(() => {
       setIsPending(false);
-      history.push("http://localhost:3000/todolist");
+      history.push("/todolist");
     });
   };
 
