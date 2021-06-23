@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/huutoan02/reactjs/static/css/main.c7cdb101.chunk.css",
+    "main.js": "/huutoan02/reactjs/static/js/main.aa2cf0ca.chunk.js",
+    "main.js.map": "/huutoan02/reactjs/static/js/main.aa2cf0ca.chunk.js.map",
+    "runtime-main.js": "/huutoan02/reactjs/static/js/runtime-main.3cfd71c3.js",
+    "runtime-main.js.map": "/huutoan02/reactjs/static/js/runtime-main.3cfd71c3.js.map",
+    "static/js/2.dd1f3f9c.chunk.js": "/huutoan02/reactjs/static/js/2.dd1f3f9c.chunk.js",
+    "static/js/2.dd1f3f9c.chunk.js.map": "/huutoan02/reactjs/static/js/2.dd1f3f9c.chunk.js.map",
+    "index.html": "/huutoan02/reactjs/index.html",
+    "static/css/main.c7cdb101.chunk.css.map": "/huutoan02/reactjs/static/css/main.c7cdb101.chunk.css.map",
+    "static/js/2.dd1f3f9c.chunk.js.LICENSE.txt": "/huutoan02/reactjs/static/js/2.dd1f3f9c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cfd71c3.js",
+    "static/js/2.dd1f3f9c.chunk.js",
+    "static/css/main.c7cdb101.chunk.css",
+    "static/js/main.aa2cf0ca.chunk.js"
+  ]
+}
