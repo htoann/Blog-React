@@ -13,7 +13,7 @@ const Create = () => {
     e.preventDefault();
     const blog = { title, body, author };
     setIsPending(true);
-    fetch("https://60c9e7eb772a760017204b93.mockapi.io/blogs", {
+    fetch(process.env.REACT_APP_BLOGS, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),

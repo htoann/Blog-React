@@ -7,7 +7,7 @@ const Home = () => {
     data: blogs,
     isPending,
     error,
-  } = useFetch("https://60c9e7eb772a760017204b93.mockapi.io/blogs");
+  } = useFetch(process.env.REACT_APP_BLOGS);
   return (
     <div className="home">
       {error && <div> {error} </div>}

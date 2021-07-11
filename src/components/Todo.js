@@ -4,15 +4,15 @@ import "./assets/TodoList.css";
 
 const Todo = () => {
   const {
-    data: todolist,
+    data: todos,
     isPending,
     error,
-  } = useFetch("https://60c9e7eb772a760017204b93.mockapi.io/todolist");
+  } = useFetch(process.env.REACT_APP_TODOS);
   return (
     <div className="todo-list">
       {error && <div>{error}</div>}
       {isPending && <h2>Loading...</h2>}
-      {todolist && <TodoList todolist={todolist} text="Todo List"></TodoList>}
+      {todos && <TodoList todos={todos} title="Todo List"></TodoList>}
     </div>
   );
 };

@@ -11,10 +11,10 @@ const BlogDetails = () => {
     data: blog,
     error,
     isPending,
-  } = useFetch("https://60c9e7eb772a760017204b93.mockapi.io/blogs/" + id);
+  } = useFetch(process.env.REACT_APP_BLOGS + "/" + id);
 
   const handleDelete = () => {
-    fetch("https://60c9e7eb772a760017204b93.mockapi.io/blogs/" + blog.id, {
+    fetch(process.env.REACT_APP_BLOGS + "/" + blog.id, {
       method: "DELETE",
     }).then(() => {
       history.push("/");

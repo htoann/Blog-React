@@ -1,14 +1,14 @@
 import TodoForm from "./TodoForm";
 
-const TodoList = ({ todolist, text }) => {
+const TodoList = ({ todos, title }) => {
   return (
     <div className="todo-list">
-      <h2>{text}</h2>
+      <h2>{title}</h2>
       <TodoForm></TodoForm>
-      {todolist.map((todo) => (
+      {todos.map((todo) => (
         <div className="todo-preview" key={todo.id}>
           <input className="checkbox" type="checkbox" />
-          <p className="text-todo">{todo.text}</p>
+          <p className="text-todo">{todo.title}</p>
         </div>
       ))}
     </div>

@@ -2,30 +2,30 @@ import { useState } from "react";
 import { useHistory } from "react-router";
 
 const TodoForm = () => {
-  const [text, setText] = useState("");
+  const [title, setTitle] = useState("");
   const [isPending, setIsPending] = useState(false);
   const history = useHistory();
 
   const handleSubmit = () => {
-    const todo = { text };
+    const todo = { title };
     setIsPending(true);
-    fetch("https://60c9e7eb772a760017204b93.mockapi.io/todolist", {
+    fetch(process.env.REACT_APP_TODOS, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(todo),
     }).then(() => {
       setIsPending(false);
-      history.push("/todolist");
+      history.push("/todos");
     });
   };
 
   return (
     <form onSubmit={handleSubmit}>
       <input
-        type="text"
+        type="title"
         placeholder="What need to be done?"
         onChange={(e) => {
-          setText(e.target.value);
+          setTitle(e.target.value);
         }}
       />
       {!isPending && <button>Add Task</button>}
